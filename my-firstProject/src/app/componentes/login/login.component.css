@@ -1,0 +1,38 @@
+body{
+    align-items: center;
+    text-align: justify;
+    margin-left: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.QuienSoy{
+    margin-left: -82%;
+}
+.titulo{
+    text-align: center;
+}
+.Contenedor{
+    background-color:chocolate;  
+    border-radius: 1%;
+    margin-right: 82.4%;
+}
+button{
+    background-color: aquamarine;
+    margin-left: 26%;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 760px) {
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+}
+@media screen and (max-width: 993px){
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+}

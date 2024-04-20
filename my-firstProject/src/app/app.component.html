@@ -1,0 +1,33 @@
+<!--
+Ejercicio 1
+<h1 class="titulo">{{title}}</h1>
+
+
+<input type="text" [(ngModel)]="nombre">
+<p>{{nombre}}</p>
+
+<input type="text" placeholder="Ingrese la 1ra edad" [(ngModel)]="edadUno"><p></p>
+<input type="text" placeholder="Ingrese la 2da edad" [(ngModel)]="edadDos"><p></p>
+
+<label for="promedio">Promedio</label> &nbsp;
+<input type="text" name="promedio" value="{{promedio}}"><p></p>
+<label for="promedio">Suma Edades</label> &nbsp;
+<input type="text" name="sumaEdades" value="{{suma}}"> <hr>
+
+
+<button (click)="OnClick()">Calcular</button>&nbsp; &nbsp;
+<button (click)="LimpiarCuadrosTexto()">Limpiar</button>
+
+<app-bienvenido *ngIf="suma==''" ></app-bienvenido>-->
+
+<!-- <ng-container *ngIf="exito==null">
+    <h1>Menu</h1>
+    <button (click)="hizoClick()" routerLink="login" routerLinkActive="active-route">Login</button> &nbsp; 
+    <button (click)="hizoClick()" routerLink="bienvenido" routerLinkActive="active-route">Bienvenido</button> &nbsp;
+    <button (click)="hizoClick()" routerLink="error" routerLinkActive="active-route">Error</button><br><br>
+</ng-container> -->
+
+<router-outlet />
+
+
+<!-- <app-login></app-login> -->

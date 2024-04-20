@@ -1,0 +1,17 @@
+<body>
+    <h1 class="QuienSoy">Matias Ferrari</h1>
+    <ng-container *ngIf="exito==null">
+        <div class="Contenedor">
+            <div class="titulo"><h1>Login</h1></div>
+            <label for="nombre">Nombre</label><br>
+            <input type="text" name="nombre" placeholder="Ingrese su nombre" [(ngModel)]="usuario.nombre"><br><br>
+            <label for="clave">Clave</label><br>
+            <input type="text" name="clave" placeholder="Ingrese su clave" [(ngModel)]="usuario.clave"><p></p>
+            <button id="btnLogin" (click)="login()">Loguearse</button>
+            <!-- <button id="btnRegistrarse" (click)="registrarse()">Registrarse</button> -->
+        </div>
+    </ng-container>
+
+
+<router-outlet/>
+</body>
